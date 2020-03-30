@@ -33,5 +33,11 @@ public class Camion extends Vehiculo {
 		this.numeroEjes = numEjes;
 	}
 
+	public void ver() {
+		System.out.println( "Camion [numeroEjes=" + numeroEjes + "]");
+	}
+	
+	
+
 }
 

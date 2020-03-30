@@ -39,6 +39,5 @@ public class Motocicleta extends Vehiculo{
 		System.out.println("Con una cilindrada de"+getCilindrada());
 		System.out.println("Y una potencia de"+getPotencia());
 		System.out.println("Tiene "+numeroPlazas+" numero de plazas");
-		System.out.println("linea nueva");
 	}
 }

@@ -59,7 +59,12 @@ public class Vehiculo {
 		 
 		 public void setNumeroRuedas (byte numRuedas) {
 			 this.numeroRuedas = numRuedas;
-		 } 
+		 }
+
+		public void ver() {
+			System.out.println("Vehiculo [color=" + color + ", numeroRuedas=" + numeroRuedas + ", cilindrada=" + cilindrada + ", potencia=" + potencia + "]");
+		} 
+		 
 }
 
 
